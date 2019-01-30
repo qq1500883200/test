@@ -13,7 +13,7 @@ public class Hello {
         @ResponseBody
         public Object reg(){
 
-            return "this is a demo";
+            return "this is a yubo";
 
         }
 }
