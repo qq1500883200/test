@@ -12,7 +12,7 @@ public class Hello {
         @GetMapping("/reg")
         @ResponseBody
         public Object reg(){
-
+            /**/
             return "this is a yubo";
 
         }
