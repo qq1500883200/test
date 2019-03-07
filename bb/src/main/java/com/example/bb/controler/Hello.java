@@ -11,7 +11,7 @@ public class Hello {
         @PostMapping("/reg2")
         @ResponseBody
         public Object reg(){
-
+            /*v5.0*/
             return "123";
 
         }
