@@ -17,6 +17,8 @@ public class ConfigClientController {
 
     @RequestMapping("/version")
     public String sayHi(){
+
+        //http://localhost:8882/refresh
         return version;
     }
 }
