@@ -1,5 +1,6 @@
 package com.example.bb.controler;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
 
 
-        @PostMapping("/reg2")
+        @GetMapping("/reg2")
         @ResponseBody
         public Object reg(){
             /*v5.0*/
