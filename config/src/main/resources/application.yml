@@ -17,5 +17,6 @@ spring:
           uri: https://github.com/qq1500883200/demo.git
           #username:
           #password:
+          #search-paths: config-repo
           basedir: D:/workspase/demo
 

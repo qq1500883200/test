@@ -1,19 +1,12 @@
-server:
-  port: 8882
-  version: V2.4
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+
+
 
 spring:
-  application:
-    name: config-client
-  profiles:
-    active: dev
   cloud:
     config:
       uri: http://127.0.0.1:8881
       fail-fast: true
+      profile: dev
+      name: config-client
+
+
