@@ -50,26 +50,34 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
+
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>commonbase</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.22</version>
 		</dependency>
+		<dependency>
+			<groupId>de.siegmar</groupId>
+			<artifactId>logback-gelf</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<modules>
-		<module>aa</module>
-		<module>bb</module>
-		<module>config</module>
-		<module>config-client</module>
+		<!--<module>aa</module>-->
+		<!--<module>bb</module>-->
+		<!--<module>config</module>-->
+		<!--<module>config-client</module>-->
 		<module>eureka</module>
-		<module>producer</module>
+		<module>eureka2</module>
+		<!--<module>producer</module>-->
 		<module>consumer-hystrix</module>
 		<module>common-base</module>
-		<module>admin-eureka</module>
-		<module>service-zuul</module>
-		<module>zipkin-server</module>
+		<!--<module>admin-eureka</module>-->
+		<!--<module>service-zuul</module>-->
+		<!--<module>zipkin-server</module>-->
 	</modules>
 
 	<dependencyManagement>
@@ -86,13 +94,13 @@
 
 
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+	<!--<build>-->
+		<!--<plugins>-->
+			<!--<plugin>-->
+				<!--<groupId>org.springframework.boot</groupId>-->
+				<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+			<!--</plugin>-->
+		<!--</plugins>-->
+	<!--</build>-->
 
 </project>

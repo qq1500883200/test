@@ -10,13 +10,13 @@ import org.springframework.web.client.RestTemplate;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ConfigClientApplicationTests {
-    @Autowired
-    private RestTemplate restTemplate;
+//    @Autowired
+//    private RestTemplate restTemplate;
     @Test
     public void contextLoads() {
 
-        String result = restTemplate.postForObject("http://localhost:8882/refresh",null, String.class);
-        int a = 0;
+//        String result = restTemplate.postForObject("http://localhost:8882/refresh",null, String.class);
+//        int a = 0;
 
     }
 

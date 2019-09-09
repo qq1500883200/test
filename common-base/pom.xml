@@ -7,25 +7,13 @@
         <artifactId>big</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>com.example</groupId>
     <artifactId>commonbase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>common-base</name>
-    <description>Demo project for Spring Boot</description>
 
 
 
-    <dependencies>
-
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
