@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aa" />
+        <module name="admin-eureka" />
+        <module name="bb" />
+        <module name="common-base" />
+        <module name="config" />
+        <module name="config-client" />
+        <module name="consumer-hystrix" />
+        <module name="eureka" />
+        <module name="eureka2" />
+        <module name="producer" />
+        <module name="producer2" />
+        <module name="service-zuul" />
+        <module name="zipkin-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aa" target="1.8" />
+      <module name="admin-eureka" target="1.8" />
+      <module name="bb" target="1.8" />
+      <module name="common-base" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="consumer-hystrix" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka2" target="1.8" />
+      <module name="producer" target="1.8" />
+      <module name="producer2" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
